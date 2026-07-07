@@ -1,0 +1,198 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Kumar | UI/UX Designer</title>
+    <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
+</head>
+<body>
+    <div class="scroll-btn">
+        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a href="#home">Portfolio.</a></div>
+           <ul class="menu">
+                <li class ="N"><a href="#home">Home</a></li>
+                <li class ="N"><a href="#about">About</a></li>
+                <li class ="N"><a href="#skills">Skills</a></li>
+                <li class ="N"><a href="#services">Services</a></li>
+                <li class ="N"><a href="#contact">Contact</a></li>
+                <div class="cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+            </ul>
+            
+            <div class="media-icons">
+                <a href="https://github.com/raHul-77k"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rahul-kumar-064b651b5/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/r_r_a_h_u_l/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="cool">
+                <div class="text">
+                    <div class="text-one">Hello, I am</div>
+                    <div class="typewriter">
+                        <div class="text-two">Rahul Kumar</div>
+                    </div>
+                    <div class="text-three">I'm a <span class="dynamic" data-typed>UI/UX Designer</span></div>
+                    <div class="text-four">Crafting intuitive, human-centered digital experiences from Noida, India</div>
+                </div>
+            </div>
+            <div class="button">
+                <a href="#contact"><button>Hire Me</button></a>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title" data-reveal><span>About Me</span></div>
+            <div class="about-details">
+                <div class="right" data-reveal="left">
+                    <div class="img-wrap">
+                        <img src="{% static 'core/images/me.jpeg' %}" alt="Rahul Kumar">
+                    </div>
+                </div>
+                <div class="left" data-reveal="right">
+                    <div class="topic">Designing Is My Passion</div>
+                    <p>I'm a UI/UX Designer with 2 years of experience turning complex problems into simple, elegant, and delightful digital experiences. My work is driven by empathy, user research, and a deep love for clean visual design.</p>
+                    <p>From wireframes and interactive prototypes to polished design systems, I focus on usability, accessibility, and pixel-perfect execution — bridging the gap between users and products at every step of the design process.</p>
+                    <div class="button">
+                        <button><a href="https://drive.google.com/file/d/18jJF27PBLbL4ibQSPPQDbmgfCf2Uo1vk/view?usp=sharing">Download CV</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title" data-reveal><span>My Skills</span></div>
+            <div class="skill-details">
+                <div class="left" data-reveal="left">
+                    <div class="topic">Design Tools & Expertise</div>
+                    <p>"Great design is invisible — it just works, feels effortless, and puts the user first."</p>
+                    <p>I specialize in user research, wireframing, prototyping, and building scalable design systems. My toolkit blends visual design with interaction design, so every product I touch is not only beautiful but also usable, accessible, and consistent across platforms.</p>
+                    <div class="experience">
+                        <div class="num" data-count="2">2</div>
+                        <div class="exp">Years<br>design experience</div>
+                    </div>
+                </div>
+                <div class="bars" data-reveal="right">
+                    <div class="skill-item" data-percent="90">
+                        <div class="skill-head"><span>Figma</span><span class="num">90%</span></div>
+                        <div class="skill-track"><div class="skill-fill"></div></div>
+                    </div>
+                    <div class="skill-item" data-percent="85">
+                        <div class="skill-head"><span>Wireframing &amp; Prototyping</span><span class="num">85%</span></div>
+                        <div class="skill-track"><div class="skill-fill"></div></div>
+                    </div>
+                    <div class="skill-item" data-percent="80">
+                        <div class="skill-head"><span>User Research</span><span class="num">80%</span></div>
+                        <div class="skill-track"><div class="skill-fill"></div></div>
+                    </div>
+                    <div class="skill-item" data-percent="85">
+                        <div class="skill-head"><span>Design Systems</span><span class="num">85%</span></div>
+                        <div class="skill-track"><div class="skill-fill"></div></div>
+                    </div>
+                    <div class="skill-item" data-percent="75">
+                        <div class="skill-head"><span>Adobe XD &amp; Illustrator</span><span class="num">75%</span></div>
+                        <div class="skill-track"><div class="skill-fill"></div></div>
+                    </div>
+                    <div class="skill-item" data-percent="70">
+                        <div class="skill-head"><span>HTML &amp; CSS</span><span class="num">70%</span></div>
+                        <div class="skill-track"><div class="skill-fill"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title" data-reveal><span>What I Do</span></div>
+            <div class="boxes">
+                <div class="box" data-reveal data-reveal-delay="1">
+                    <div class="icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="topic">UX Research</div>
+                    <p>User interviews, personas, journey mapping and competitive analysis to ground every design decision in real user needs.</p>
+                </div>
+                <div class="box" data-reveal data-reveal-delay="2">
+                    <div class="icon">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <div class="topic">UI Design</div>
+                    <p>Clean, modern, and accessible interfaces with strong visual hierarchy, thoughtful typography, and consistent color systems.</p>
+                </div>
+                <div class="box" data-reveal data-reveal-delay="3">
+                    <div class="icon">
+                        <i class="fas fa-vector-square"></i>
+                    </div>
+                    <div class="topic">Wireframing</div>
+                    <p>Low and high-fidelity wireframes that map out layouts, content flow, and information architecture before a single pixel is polished.</p>
+                </div>
+                <div class="box" data-reveal data-reveal-delay="1">
+                    <div class="icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="topic">Prototyping</div>
+                    <p>Interactive, clickable prototypes in Figma that bring ideas to life and validate flows before development begins.</p>
+                </div>
+                <div class="box" data-reveal data-reveal-delay="2">
+                    <div class="icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <div class="topic">Design Systems</div>
+                    <p>Scalable component libraries and style guides that keep products consistent, on-brand, and fast to build.</p>
+                </div>
+                <div class="box" data-reveal data-reveal-delay="3">
+                    <div class="icon">
+                        <i class="fas fa-universal-access"></i>
+                    </div>
+                    <div class="topic">Usability &amp; Accessibility</div>
+                    <p>Usability testing and WCAG-minded design so experiences are effortless and inclusive for every user.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title" data-reveal><span>Contact Me</span></div>
+            <div class="text" data-reveal>
+                <div class="topic">Have a Product Idea?</div>
+                <p>Let's collaborate to design a user experience your customers will love. Whether you need a full design system, a redesign, or a quick prototype — I'm ready to help bring your vision to life.</p>
+                <div class="button">
+                    <a href="{% url 'contact' %}"><button>Let's Chat</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="text">
+            <span>Designed &amp; Built By <a href="#">Rahul Kumar</a> | &#169; 2026 All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <script src="{% static 'core/js/script.js' %}"></script>
+</body>
+</html>
+
+
+ 
